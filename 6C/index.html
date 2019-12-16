@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>	
+	</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="skills">
+	<span class="Name">Done</span>
+	<div class="percent">
+		<div class="progress"></div>
+	</div>
+	<span value="Value">50%</span>
+</div>
+</div>
+<div class="barra">
+	<span id="rangeValue">0</span>
+	<input type="range" name="" class="range" value="0" min="0" max="50" onmousemove="rangeSlider(this.value)" onChange="rangeSlider(this.value)">
+</div>
+<script type="text/javascript">
+	function rangeSlider(value) {
+		document.getElementById('rangeValue').innerHTML =value;
+
+			}
+</script>
+</body>
+</html>

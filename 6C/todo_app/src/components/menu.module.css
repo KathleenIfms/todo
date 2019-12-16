@@ -1,0 +1,60 @@
+.navleft{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px  #00000070;
+  }
+  .navleft div:hover{
+    background: #f1f1f1;
+}
+.navleft div:nth-child(2){
+    background: #f1f1f1;
+}
+  .addTodoNavLeft{
+    background: #fff;
+    position: relative;
+    height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  
+  }
+  .addTodoNavLeft a{
+      text-decoration: none;
+    position: absolute;
+    color: rgb(71, 70, 70);
+    left: 50px;
+    height: 35px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+    top: 30px;
+  }
+  .navlogo{
+    background: #fff;
+    position: relative;
+    height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-family: "Layar Bahtera Regular";
+  }
+  .navlogo a{
+    text-decoration: none;
+    position: absolute;
+    color: rgb(71, 70, 70);
+    left: 50px;
+    height: 35px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    padding-left:10px;
+    top: 30px;
+  }
